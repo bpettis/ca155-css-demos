@@ -1,0 +1,21 @@
+:root {
+    --background: #000;
+    --text: #fff;
+    --text-accent: #aaa;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--text);
+    font-size: 24px;
+}
+
+h1 {
+    color: var(--text-accent);
+}
+
+img {
+    float: left;
+    padding: 10px;
+    width: clamp(250px, 33%, 1000px);
+}
